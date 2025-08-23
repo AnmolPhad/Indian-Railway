@@ -1,0 +1,90 @@
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #87CEEB, #E0E0E0);
+}
+
+.track {
+  position: absolute;
+  bottom: 20.5%;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: repeating-linear-gradient(to right, #654321, #654321 15px, #8B4513 15px, #8B4513 30px);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
+  z-index: 1;
+}
+
+.stationLabel {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.train {
+  position: absolute;
+  bottom: 10%;
+  left: -100%;
+  display: flex;
+  white-space: nowrap;
+  cursor: grab;
+  z-index: 2;
+  align-items: flex-end;
+}
+
+.coach img,
+.engine img {
+  width: 550px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.cardStation {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  background: #87CEEB;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  transition: transform .3s, box-shadow .3s;
+}
+
+.cardStation:hover {
+  transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
+}
+
+.cardStation .logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.timeInfo {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 15px;
+}

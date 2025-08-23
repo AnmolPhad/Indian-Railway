@@ -1,0 +1,166 @@
+.page {
+  background: #f5f5f5;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.head {
+  margin: 50px auto;
+  width: min(800px, 90%);
+  font-size: 45px;
+  font-weight: 700;
+  padding: 17px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+  border-radius: 20px;
+}
+
+.coach {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+  color: #666;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
+  border-radius: 15px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 48px;
+  font-weight: 700;
+  color: #6eb7ff;
+  margin: 0 0 20px;
+}
+
+.bucket {
+  width: 60px;
+  height: 120px;
+  border: 2px solid #6eb7ff;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fill {
+  background: #6eb7ff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 0%;
+  transition: height .5s;
+}
+
+.btn {
+  margin: 30px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #6eb7ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #559ede;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px;
+  background: #ff4444;
+  color: #fff;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000;
+}
+
+.chartWrap {
+  width: 90%;
+  max-width: 650px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
+}
+
+.chartWrap h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.row canvas {
+  width: 300px !important;
+  height: 300px !important;
+  max-width: 100%;
+}
+
+.tsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.tsRow .chartWrap {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+@media(max-width:600px) {
+  .head {
+    width: 90%;
+    font-size: 32px;
+  }
+
+  .card p {
+    font-size: 36px;
+  }
+
+  .btn {
+    width: 80%;
+  }
+}

@@ -1,0 +1,181 @@
+/* Global font reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* Use Google Fonts */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+  .container {
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(images/indianrail2.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+        }
+.logo span {
+  color: #fa0303;
+}
+
+.logo {
+  font-size: 30px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.nav a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+
+.nav a:hover {
+  background: #ecf1f2;
+  color: #000;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/images/indianrail2.jpg") center/cover no-repeat;
+  padding: 10px 8%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heroContent {
+  color: #fff;
+  max-width: 620px;
+  margin: 260px 0 40px;
+}
+
+.heroContent h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+
+.heroContent p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.stationTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 40px 0 20px;
+}
+
+.stationGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 8%;
+  background: rgba(255, 255, 255, .8);
+  border-radius: 20px;
+  margin: 20px 100px;
+}
+
+.card {
+  position: relative;
+  background: linear-gradient(135deg, #CB2B93, #5E61F4);
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: .3s transform, .3s box-shadow;
+  cursor: default;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
+}
+
+.card .cardLogo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.infoRow img {
+  width: 18px;
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+
+.timeInfo {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .stationGrid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .stationGrid {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+
+  .heroContent {
+    margin-top: 180px;
+  }
+}
+
+footer {
+  margin-top: 50px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

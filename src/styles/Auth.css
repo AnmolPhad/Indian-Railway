@@ -1,0 +1,23 @@
+.authWrap {
+  height:100vh; display:flex; align-items:center; justify-content:center;
+  background: url("/images/stream_train_railway_station.jpg") center/cover no-repeat;
+}
+.authCard {
+  width:400px; background:rgba(255,255,255,.1); backdrop-filter: blur(15px);
+  color:#fff; padding:30px; border-radius:20px; box-shadow:0 4px 15px rgba(0,0,0,.3); text-align:center;
+}
+.authCard h2 { margin:0 0 20px; font-size:28px; }
+.authCard label { display:block; text-align:left; font-size:14px; margin:10px 0 5px; color:#fff; }
+.inputRow { position:relative; margin:10px 0; }
+.inputRow input {
+  width:100%; padding:12px 40px 12px 12px; border:none; border-radius:25px; background:rgba(255,255,255,.85);
+  font-size:16px;
+}
+.iconRight { position:absolute; right:15px; top:50%; transform:translateY(-50%); color:#555; font-size:18px; }
+.authBtn {
+  width:100%; padding:12px; border:none; border-radius:25px; background:rgba(255,255,255,.95);
+  color:#333; font-size:16px; cursor:pointer; transition: background .2s;
+}
+.authBtn:hover { background:#ddd; }
+.link { display:block; margin-top:15px; color:#fff; text-decoration:none; font-size:14px; }
+.link:hover { text-decoration:underline; }
