@@ -1,12 +1,43 @@
-# React + Vite
+# 🚆 Smart Railways – Waste Management & Train Info System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React.js web application** for Indian Railways that provides:  
+- 📊 **Train Information Dashboard** (platforms, halt time, arrival & departure)  
+- 🚮 **Smart Waste Management** integration (future scope – automated waste segregation & notification system)  
+- 🖥️ **Modern UI with React Router** for seamless navigation  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Responsive **navigation bar** with Home, About, Train Info, Contact, Login  
+- Attractive **Hero Section** with Indian Railways branding  
+- 📅 **Train Schedule Cards** with platform number, halt time, arrival & departure  
+- 🔗 Clickable train cards (e.g., Pune Junction → Train Details Page)  
+- 📞 **Contact Section** with railway helpline info  
+- 🎨 Styled using **CSS Grid, Flexbox & custom hover effects**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React.js** (UI framework)  
+- **React Router DOM** (page navigation)  
+- **Tailwind CSS / Custom CSS** (styling)  
+- **JavaScript (ES6+)**  
+
+---
+
+## 📂 Project Structure
+smart-railways/
+├── src/
+│ ├── components/
+│ │ ├── Home.jsx
+│ │ ├── Train.jsx
+│ │ └── Login.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── index.js
+├── public/
+│ ├── images/
+│ │ ├── train-logo.png
+│ │ ├── clock-icon.png
+│ │ └── train-hero.jpg
+└── package.json
