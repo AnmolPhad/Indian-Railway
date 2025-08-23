@@ -21,7 +21,7 @@ This project is a **React.js web application** for Indian Railways that provides
 - **React.js** (UI framework)  
 - **React Router DOM** (page navigation)  
 - **Tailwind CSS / Custom CSS** (styling)  
-- **JavaScript (ES6+)**  
+- **JavaScript (ES6+)** 
 
 ---
 
