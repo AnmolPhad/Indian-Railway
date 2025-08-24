@@ -1,4 +1,4 @@
-# 🚆 Smart Railways – Waste Management & Train Info System  
+# 🚆 Smart Railways – Waste Management System
 
 This project is a **React.js web application** for Indian Railways that provides:  
 - 📊 **Train Information Dashboard** (platforms, halt time, arrival & departure)  
