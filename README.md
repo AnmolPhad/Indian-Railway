@@ -27,17 +27,20 @@ This project is a **React.js web application** for Indian Railways that provides
 
 ## 📂 Project Structure
 smart-railways/
-├── src/
-│ ├── components/
-│ │ ├── Home.jsx
-│ │ ├── Train.jsx
-│ │ └── Login.jsx
-│ ├── App.jsx
-│ ├── App.css
-│ └── index.js
 ├── public/
 │ ├── images/
 │ │ ├── train-logo.png
 │ │ ├── clock-icon.png
 │ │ └── train-hero.jpg
-└── package.json
+│ └── index.html
+├── src/
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── TrainAnimation.jsx
+│ │ ├── Dustbin1.jsx
+│ │ └── Login.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
+├── package.json
+└── README.md
