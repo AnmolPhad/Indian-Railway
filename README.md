@@ -25,9 +25,6 @@ This project is a **React.js web application** for Indian Railways that provides
 
 ---
 
-## 📂 Project Structure
-
-```bash
 smart-railways/
 ├── public/
 │   ├── images/
