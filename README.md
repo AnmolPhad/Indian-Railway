@@ -25,9 +25,6 @@ This project is a **React.js web application** for Indian Railways that provides
 
 ---
 
-## 📂 Project Structure
-
-```bash
 smart-railways/
 ├── public/
 │   ├── images/
@@ -41,9 +38,15 @@ smart-railways/
 │   │   ├── TrainAnimation.jsx
 │   │   ├── Dustbin1.jsx
 │   │   └── Login.jsx
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Home.css
+│   │   ├── TrainAnimation.css
+│   │   ├── Dustbin1.css
+│   │   └── Login.css
 │   ├── App.jsx
-│   ├── App.css
 │   └── main.jsx
 ├── package.json
 └── README.md
+
 
