@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/TrainAnimation.css";
+import "../styles/Trainanimation.css";
 
 export default function TrainAnimation() {
   const trainRef = useRef(null);
